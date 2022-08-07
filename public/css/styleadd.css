@@ -1,0 +1,72 @@
+/*index vives*/
+
+.users-tables-group {
+  padding: 20px 10px 0 10px;
+}
+
+.table-users-row {
+  position: relative;
+  margin-bottom: 15px;
+}
+.table-user {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table-header-blue {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 20px;
+  background:#179ef0;
+  color: white;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.table-user-body {
+  padding: 10px 0;
+  display: flex;
+}
+
+.right {
+  float: right;
+}
+
+.user-details {
+  padding: 0 30px;
+  color: #364760;
+}
+.user-details td:first-child {
+  padding-left: 10px;
+}
+.user-details td {
+  padding-right: 290px;
+}
+/*.user-details tr td:first-child:after {
+  content: ":";
+}*/
+.user-details tr td {
+  padding-bottom: 15px;
+}
+
+.action,
+.delete
+{
+  line-height: 32px;
+  float: left;
+  cursor: pointer;
+}
+
+.delete::before {
+  content: "\f014";
+  font-family: FontAwesome;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+
